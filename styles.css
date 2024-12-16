@@ -1,0 +1,388 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 4vw;
+}
+p {
+    font-size: 1vw;
+}
+body {
+    background: linear-gradient(to left, rgb(192, 70, 0), rgb(83, 0, 0));
+    color: white;
+    padding-bottom: 50px;
+}
+
+#homepage,
+#guestbookpage,
+#shoppage,
+#userregistrationpage,
+#userloginpage,
+#eventspage,
+#learningtereopage {
+    background: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    width: 85%;
+    padding: 50px;
+    text-align: center;
+}
+
+#menusitelogo {
+    margin-left: 0;
+}
+img {
+    display: block;
+    margin: auto;
+
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#userstatus {
+    float: inline-end;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#homepageimage {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+td {
+    text-align: center;
+    font-size: 16px;
+    width: 10%;
+    border: solid white 0.5vw;
+}
+
+#guestcomments {
+    width: 100%;
+    height: 400px;
+    background: rgb(0, 0, 0);
+}
+#myCommentButton {
+    color: white;    
+    background-color: rgb(0, 102, 145);
+        border: solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+
+}
+#mylogoutbutton {
+    display: none;
+}
+
+#navbar-div {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+    padding: 0 15px 0 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0 0 0 20px;
+}
+
+.navbar li {
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    color: slategrey;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3vw;
+}
+.toggle {
+    display: none;
+}
+/* =========================================================================================== */
+/* Shop */
+/* =========================================================================================== */
+#fltermessage {
+    display: none;
+}
+
+#inputdata {
+    width: 200px;
+}
+#search, #display {
+    color: white;    
+    background-color: crimson;
+        border: solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+}
+#shopitems {
+    border-spacing: 2vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.itema{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+.itemname{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.itemid,
+.itemdescription {
+    color: black;
+    padding: 10px 0;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.imga {
+    display: block;
+    margin: auto;
+
+    max-width: 260px;
+    max-height: 260px;
+    height: auto;
+    width: auto\9;
+}
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/*                                                                  Event formatting                                                           */
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+#eventitems {
+    /* border-collapse: separate; */
+    border-spacing: 2vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.eventitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.eventname {
+    font-weight: bold;
+    color: rgb(0, 102, 145);
+    font-size: 24px;
+    border: solid  rgb(0, 102, 145);
+    border-radius: 10px;
+}
+.eventmanager {
+    font-size: 12px;
+}
+
+.eventid,
+.eventlocation,
+.eventdescription {
+    background-color: rgb(0, 102, 145);
+    color: white;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.eventbutton {
+    color: white;    
+    background-color: orangered;
+        border: solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+}
+/* ============================================================================================================================================*/
+
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/*                                                             Matching Cards Game                                                             */
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+/***********************************************************************************************************************************************/
+#tablediv {
+    display: block;
+    text-align: center;
+
+}
+
+#demotablediv {
+    display: block;
+    text-align: center;
+
+}
+
+#demotable {
+    width: 100%;
+}
+
+#pairstable {
+    width: 100%;
+}
+
+.pairsimg {
+    max-width: 100px;
+}
+
+.pairsp:hover {
+    cursor: pointer;
+}
+
+td {
+    text-align: center;
+    font-size: 16px;
+    height: 100px;
+    border: solid white 0.1vw;
+}
+.border {
+    border-bottom: 3px solid white ;
+}
+
+#resetgame {
+    color: white;    
+    background-color: rgb(0, 102, 145);
+        border: solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+
+}
+#gamescoring {
+    float: inline-end;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ============================================================================================================================================*/
+
+
+#userloginpage, #userregistrationpage, #shoppage{
+    text-align: center;
+}
+
+#myLoginButton {
+    color: white;    
+    background-color: orangered;
+        border: solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+}
+
+#mylogoutbutton {
+    color: white;    
+    background-color: red;
+        border: solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+
+}
+#userreg {
+    display:flex;
+    flex-direction: column;
+}
+
+#myRegisterButton {
+    color: white;    
+    background-color: green;
+        border: solid white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+}
+#regusername, #regpassword, #regaddress {
+    width: 200px;
+}
+
+#logusername, #logpassword {
+    width: 200px;
+}
+
+#logoutmessage {
+    text-align:right;
+    padding-right: 60px;
+}
+
+#loginmessage {
+    font-size: 24;
+}
+
+
+@media all and (max-width: 800px) {
+    .navbar {
+        padding: 0;
+        
+    }
+}
